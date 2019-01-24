@@ -1,0 +1,235 @@
+*{ 
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: tahoma;
+}
+
+
+.row{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.bonito{
+	position: absolute;
+	width: 1140px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+.jumbotron{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("Evening.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+.bonito h1{
+	color: white;
+	font-size: 90%;
+}
+
+.main-nav{
+	float: right;
+	list-style: none;
+	margin-top: 10px;
+
+}
+
+.main-nav li{
+	display: inline-block;
+	margin-left: 20px;
+
+}
+
+.main-nav li a{
+	color: white;
+	text-decoration: none;
+	font-size: 90%;
+}
+
+.main-nav li a:hover{
+	color: rgb(30,900,900);
+	border-bottom: 2px solid rgb(30,900,900);
+	transition: all 0.5s ease-in;
+	padding: 10px 0;
+}
+
+.logo img{
+	height: 100px;
+	border-radius: 30%;
+	margin-top: 1px;
+	float: left;
+}
+
+
+
+
+h3:after{
+	width: 100px;
+	height: 2px;
+	display: block;
+	background-color: rgb(30,900,900);
+	content: "";
+	margin: 0 auto;
+	margin-top: 30px;
+	
+}
+
+
+.features h3{
+	margin-top: 80px;
+	margin-bottom: 30px;
+
+}
+
+.arrangement{
+	text-align: justify;
+}
+
+.features h4{
+	font-weight: 300;
+	margin-left: 60px;
+}
+
+.showcase-sites{
+	list-style: none;
+	width: 100%;
+}
+
+.showcase-sites li{
+	display: block;
+	width: 25%;
+	float: left;
+}
+
+
+.site-photo{
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+
+}
+
+
+.site-photo img{
+	width: 100%;
+	height: auto;
+	transform: scale(1.15);
+	transition: all 0.5s;
+}
+
+.site-photo img:hover{
+	transform: scale(1.05);
+}
+
+.sites{
+	margin: 60px;
+
+
+}
+
+
+.kenya h3{
+	margin-top: 80px;
+}
+
+.pic img{
+	width: 70%;
+	margin-left: 20%;
+	margin-top: 50px;
+}	
+.works-step{
+	margin-top: 50px; 
+}
+
+.works-step div{
+	border: 1px solid rgb(30,3000,900);
+	display: inline-block;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+
+}
+
+.clearfix{
+	zoom:1;
+}
+
+
+.clearfix: after{
+	visibility: hidden;
+	content: ".";
+	height: 0;
+	display: block;
+	clear: both;
+}
+
+
+.culture h3{
+	margin-top: 80px;
+}
+
+.culture img{
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+	
+}
+
+
+.testimonials{
+	margin-top: 80px;
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('rings.jpg');
+	background-position: center;
+	padding-top: 80px;
+	padding-bottom: 50px;
+	color: rgb(30,3000,900);
+	background-attachment: fixed;
+	
+
+}
+
+.testimonials p{
+	margin-top: 50px;
+	line-height: 25px;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
