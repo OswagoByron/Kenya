@@ -1,0 +1,88 @@
+*{ 
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: tahoma;
+}
+
+.main-nav li{
+	display: inline-block;
+	margin-left: 20px;
+
+}
+
+.main-nav li a{
+	color: white;
+	text-decoration: none;
+	font-size: 90%;
+}
+
+.main-nav li a:hover{
+	color: rgb(30,900,900);
+	border-bottom: 2px solid rgb(30,900,900);
+	transition: all 0.5s ease-in;
+	padding: 10px 0;
+}
+
+.kenya h3{
+	margin-top: 80px;
+}
+
+.row{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+.pic img{
+	width: 70%;
+	margin-left: 20%;
+	margin-top: 50px;
+}
+
+.works-step{
+	margin-top: 50px; 
+}
+
+.works-step div{
+	border: 1px solid rgb(30,3000,900);
+	display: inline-block;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+
+}
+
+.clearfix{
+	zoom:1;
+}
+
+
+.clearfix: after{
+	visibility: hidden;
+	content: ".";
+	height: 0;
+	display: block;
+	clear: both;
+}
+
+.culture h3{
+	margin-top: 80px;
+}
+
+.culture img{
+	width: 100%;
+	height: auto;
+	margin-top: 50px;
+	
+}
+
+.footer{
+  background-color: black;
+  height: 50px;
+  margin-bottom: 0;
+  vertical-align: middle;
+}

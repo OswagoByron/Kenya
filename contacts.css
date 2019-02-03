@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Tahoma;
+}
+ 
+.main-nav li{
+	display: inline-block;
+	margin-left: 20px;
+
+}
+
+.main-nav li a{
+	color: white;
+	text-decoration: none;
+	font-size: 90%;
+}
+
+.main-nav li a:hover{
+	color: rgb(30,900,900);
+	border-bottom: 2px solid rgb(30,900,900);
+	transition: all 0.5s ease-in;
+	padding: 10px 0;
+}
+
+h3:after{
+	width: 100px;
+	height: 2px;
+	display: block;
+	background-color: rgb(30,900,900);
+	content: "";
+	margin: 0 auto;
+	margin-top: 30px;
+	
+}
+.testimonials{
+	margin-top: 80px;
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('rings.jpg');
+	background-position: center;
+	padding-top: 80px;
+	padding-bottom: 50px;
+	color: rgb(30,3000,900);
+	background-attachment: fixed;
+	
+
+}
+.footer{
+  background-color: black;
+  height: 50px;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+.testimonials p{
+	margin-top: 50px;
+	line-height: 25px;
+	color: white;
+}
+
+
+.arrangement{
+	text-align: justify;
+}
+
+.clearfix{
+	zoom:1;
+}
+
+
+.clearfix: after{
+	visibility: hidden;
+	content: ".";
+	height: 0;
+	display: block;
+	clear: both;
+}
+
+.form-signin {
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 5px;
+  font-size: 16px;
+  width: 60%;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.login{
+  margin-top: 50px;
+  min-height: 50px;
+  width: 60%;
+}
+
+button {
+  width: 60%;
+}
